@@ -2,6 +2,7 @@ package com.example.android.userprofile;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -10,6 +11,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        /**
+         * Profile ImageView
+         */
+        ImageView profileImage = (ImageView) findViewById(R.id.profileImage);
+        profileImage.setImageResource(R.drawable.img1);
 
         /**
          * Textview for name
@@ -30,5 +37,7 @@ public class MainActivity extends AppCompatActivity {
          */
         TextView country = (TextView) findViewById(R.id.country);
         country.setText("Romania");
+
+
     }
 }

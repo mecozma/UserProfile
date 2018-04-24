@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding">16dp</dimen>
+    <dimen name="imageSize">150dp</dimen>
+    <dimen name="margin">16dp</dimen>
+    <!--<item name="lineSpacing" type="dimen" format="float">4.2dp</item>-->
+</resources>
