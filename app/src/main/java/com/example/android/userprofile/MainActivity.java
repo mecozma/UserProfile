@@ -11,6 +11,24 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        
+        /**
+         * Textview for name
+         */
+
+        TextView name = (TextView) findViewById(R.id.name);
+            name.setText("Eduard");
+
+        /**
+         * Textview for birthday
+         */
+
+        TextView birthday = (TextView) findViewById(R.id.birthday);
+        birthday.setText("07/08/1985");
+
+        /**
+         * Textview for country
+         */
+        TextView country = (TextView) findViewById(R.id.country);
+        country.setText("Romania");
     }
 }
